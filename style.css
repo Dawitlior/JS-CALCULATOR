@@ -1,0 +1,25 @@
+
+#container{
+  display: grid;
+  grid-template-areas: 
+  'header header header header'
+  'operators operator operator operator'
+  'main main main side'
+  'main main main side'
+  'main main main side'
+  'main main main side';
+  width: 70vw;
+  height: 80vh;
+  border: 3px solid black;  
+}
+#result{
+  grid-area: header;
+  background-color: black;
+  color: white;
+}
+#equel_id{
+  grid-area: side;
+}
+.operators{
+  background-color:rgba(255, 126, 79, 0.906);
+}
