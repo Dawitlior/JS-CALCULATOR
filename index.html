@@ -10,23 +10,23 @@
 <body>
     <div onclick="" id="container">
         <input id="result"></input>
-        <button class="operators">+</button>
-        <button class="operators">-</button>
-        <button class="operators">*</button>
-        <button class="operators">/</button>
+        <button onclick="showNumbers('+')" class="operators">+</button>
+        <button onclick="showNumbers('-')" class="operators">-</button>
+        <button onclick="showNumbers('*')" class="operators">*</button>
+        <button onclick="showNumbers('/')" class="operators">/</button>
         <button onclick="equalFunction()" id="equel_id">=</button>
-        <button onclick="showNumbers(id_7)" id="id_7">7</button>
-        <button onclick="showNumbers(id_8)" id="id_8">8</button>
-        <button onclick="showNumbers(id_9)" id="id_9">9</button>
-        <button onclick="showNumbers(id_4)" id="id_4">4</button>
-        <button onclick="showNumbers(id_5)" id="id_5">5</button>
-        <button onclick="showNumbers(id_6)" id="id_6">6</button>
-        <button onclick="showNumbers(id_1)" id="id_1">1</button>
-        <button onclick="showNumbers(id_2)" id="id_2">2</button>
-        <button onclick="showNumbers(id_3)" id="id_3">3</button>
-        <button onclick="showNumbers(id_point)" id="id_point"><strong>.</strong></button>
-        <button onclick="showNumbers(id_0)" id="id_0">0</button>
-        <button id="id_ac">AC</button>
+        <button onclick="showNumbers(7)" id="id_7">7</button>
+        <button onclick="showNumbers(8)" id="id_8">8</button>
+        <button onclick="showNumbers(9)" id="id_9">9</button>
+        <button onclick="showNumbers(4)" id="id_4">4</button>
+        <button onclick="showNumbers(5)" id="id_5">5</button>
+        <button onclick="showNumbers(6)" id="id_6">6</button>
+        <button onclick="showNumbers(1)" id="id_1">1</button>
+        <button onclick="showNumbers(2)" id="id_2">2</button>
+        <button onclick="showNumbers(3)" id="id_3">3</button>
+        <button onclick="showNumbers('.')" id="id_point"><strong>.</strong></button>
+        <button onclick="showNumbers(0)" id="id_0">0</button>
+        <button onclick="del()" id="id_ac">AC</button>
     </div>
     <script src="main.js"></script>
 </body>
