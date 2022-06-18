@@ -16,3 +16,4 @@ let equalFunction = ()=>{
 function del(){
   result.value = " "
 }
+
