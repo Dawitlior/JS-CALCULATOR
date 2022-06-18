@@ -1,7 +1,7 @@
 
 let result = document.getElementById("result");
 let showNumbers = (number) => {
-  result.value = result.value + number;
+  result.value += number;
   result.style.fontSize = 40 + "px";
 };
 
