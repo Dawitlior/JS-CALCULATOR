@@ -4,11 +4,8 @@ let showNumbers = (number) => {
   result.style.fontSize = 40 + "px";
 };
 let equalFunction = ()=>{
-  try{
+  if(true){
     result.value=eval(result.value)
-  }
-  catch(err){
-    alert('Enter a valid result');
   }
 }
 function del(){
