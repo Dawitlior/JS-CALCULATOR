@@ -3,12 +3,15 @@ let showNumbers = (number) => {
   result.value += number;
   result.style.fontSize = 40 + "px";
 };
-let equalFunction = ()=>{
-  if(true){
-    result.value=eval(result.value)
-  }
+
+function printErrorMessage(){
+  document.result.innerText = "Error";
 }
+
 function del(){
   result.value = " "
 }
 
+function calculatorFunction(){
+  
+}
